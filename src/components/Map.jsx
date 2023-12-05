@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { MapContainer, TileLayer, useMap,Marker,Popup } from "react-leaflet"
-import "leaflet/dist/leaflet.css";
+import { MapContainer, TileLayer,Marker,Popup } from "react-leaflet"
+
 import { IpContext } from '../contexts/IpContext';
 import { RecenterAutomatically } from '../hooks/useCenter';
 
